@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<FinancialRecordQuestions><Question Code="Bankruptcy">In the last 7 years, have you filed a petition under any chapter of the bankruptcy code 
+		(to include Chapter 13)?</Question><Question Code="WagesGarnished">In the last 7 years, have you had your wages garnished 
+		or had any property repossessed for any reason?</Question><Question Code="PropertyLien">In the last 7 years, have you had a lien placed against your property 
+		for failing to pay taxes or other debts?</Question><Question Code="UnpaidJudgments">In the last 7 years, have you had any judgements against you 
+		that have not been paid?</Question></FinancialRecordQuestions>

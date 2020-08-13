@@ -1,0 +1,422 @@
+/***************************/
+/*                         */
+/* Sf86_Print_m-screen.css */
+/*                         */
+/*         Screen          */
+/*                         */
+/*        Cascading        */
+/*       Style Sheet       */
+/*                         */
+/***************************/
+
+
+/********************/
+/*  Default Styles  */
+/********************/
+
+BODY { margin: 1px; }
+
+BODY, TABLE, INPUT, SELECT, OPTION, TEXTAREA, BUTTON
+{
+	font-family: "Verdana";
+	font-weight: 700;
+	font-size: 14px;
+}
+
+TH, TD
+{
+	text-align: left;
+	vertical-align: middle;
+}
+
+INPUT, SELECT, OPTION, TEXTAREA { color: #000000; }
+
+BUTTON, A
+{
+	font-size: 12px;
+	background-color: #000000;
+	color: #FFFF00;
+	cursor: hand;
+	text-decoration: none;
+}		/* black, yellow */
+
+HR
+{
+	border: solid;
+	background-color: green;
+	color: green;
+}
+
+
+/********************/
+/*  Section Styles  */
+/********************/
+
+.Section
+{
+	border-width: 2px, 4px;
+	border-style: solid;
+	border-color: #000000;
+}
+
+.TopSection		{ border-top-width:    4px; }
+.BottomSection	{ border-bottom-width: 4px; }
+
+/* unused */
+.HelpSection		{ border-bottom: 0 none; }
+.PostHelpSection	{ border-top:    0 none; }
+
+
+/****************/
+/*  Bot Styles  */
+/****************/
+
+.HeaderContainer { padding: 6px; }
+.Container { padding: 3px 0; }
+
+.NonFloatBot { float: none; }
+.FloatLeftBot { float: left; }
+.FloatRightBot { float: right; }
+
+/* unused */
+.Bot { margin: 3px 0 3px 6px; }
+
+.MaxWidthBot { margin: 3px 0; }
+
+.MaxWidthBotPadding { padding: 3px 6px; }
+
+.TitleBot	 { padding-right: 3px; }
+.CheckboxBot { margin-left: 6px; }
+/* .CheckboxBot { float: right; margin-left: 6px; } */
+
+/* Table Option Bots */
+
+.MaxTableOptionSize { width: 144pt }
+
+/* Messages Bots */
+
+.MessagesContainer { padding: 0 6px 6px 6px; }
+
+.MessagesBot
+{
+	display: block;
+	margin: 0;
+	padding: 0;
+	width: auto;
+	list-style: none outside none;
+}
+
+.MessageBot
+{
+	display: block;
+	margin-top: 6px;
+	padding-top: 0.15ex;
+	width: auto;
+	list-style: none outside none;
+}
+
+.MessageItemsBot
+{
+	display: block;
+	margin: 0px 6px 6px 6px;
+	padding: 0;
+	width: auto;
+	list-style: none outside none;
+	text-align:left;
+}
+
+.MessageItemBot
+{
+	display: block;
+	margin-top: 4px;
+	padding: 0 0.75ex 0.2ex 0.75ex;
+	width: auto;
+	list-style: none outside none;
+}
+
+
+/* Review Bots */
+
+.ReviewsBot
+{
+	display: block;
+	margin: 0;
+	padding: 0;
+	width: auto;
+	list-style: none outside none;
+}
+
+.ReviewBot
+{
+	display: block;
+	margin: 0;
+	padding: 6px;
+	width: auto;
+	list-style: none outside none;
+}
+
+
+/* NavBar Bots */
+
+.NavBarContainer { padding: 6px; }
+
+.NavBarBot
+{
+	display: inline;
+	margin: 0;
+	padding: 0;
+	list-style: none outside none;
+}
+
+.NavBarLinkBot
+{
+	display: inline;
+	list-style: none outside none;
+	white-space: nowrap;
+}
+
+.NavBarPadding { padding: 0 1ex 0 1ex; }
+
+
+/* Menu Bots */
+
+.MenusBot
+{
+	margin: 0;
+	padding: 0;
+	width: auto;
+	list-style: none inside none;
+}
+
+.MenuBot
+{
+	margin: 0;
+	padding: 0 0 0 1.5ex;
+	width: auto;
+	list-style: none inside none;
+}
+
+.MenuItemsBot
+{
+	margin: 0;
+	padding: 0;
+	width: auto;
+	list-style: none inside none;
+	text-align:left;
+}
+
+.MenuItemBot
+{
+	margin: 0;
+	padding: 0 0 0 3.0ex;
+	width: auto;
+	list-style: disc inside none;
+}
+
+
+/**********************/
+/*  Alignment Styles  */
+/**********************/
+
+.MaxWidth	 { width: 100%; }
+div.MaxWidth { width: auto; }
+
+.BlockCenter { margin-right: auto; margin-left: auto; }
+
+.TextLeft	{ text-align: left; }
+.TextCenter { text-align: center; }
+.TextRight	{ text-align: right; }
+
+.VertTop		{ vertical-align: top; }
+.VertMiddle	{ vertical-align: middle; }
+.VertBottom	{ vertical-align: bottom; }
+
+.NoWrap { white-space: nowrap; }
+.TextWrap   { white-space: normal; }
+
+.NoPadding { padding: 0; }
+
+.Hidden { visibility: hidden; display: none; }
+
+
+/*******************/
+/*  Border Styles  */
+/*******************/
+
+.SeparatorBorder 	{ border-top: 4px solid #000000; }
+/* unused */
+.NoBorders				{ border: 0   none  #000000; }
+.VeryThinBorders	{ border: 1px solid #000000; }
+.ThinBorders			{ border: 2px solid #000000; }
+.MediumBorders		{ border: 4px solid #000000; }
+.ThickBorders			{ border: 6px solid #000000; }
+
+/*************************/
+/*  Color & Font Styles  */
+/*************************/
+
+.Group				{ background-color: #3D71BE; color: #FFFFFF; }	/* dark blue,  white */
+.Background		{ background-color: white; color: #000000; }	/* white, black */
+.Report				{ background-color: white; color: #000000; }	/* white, black */
+.TitleBackground	{ background-color: antiquewhite; color: #000000; }	/* antique white, black */
+.UpperCase		{ text-transform: uppercase; }
+.RptHeader { 
+font-size: 16px; 
+font-style: normal; 
+font-family: "Helvetica"; 
+color: black;  
+font-weight: normal; 
+}
+.RptDetail { 
+	font-size: 14px; 
+	font-style: normal; 
+	font-family: "Helvetica"; 
+	color: black; 
+	font-weight: normal; 
+}
+.RptSmall { 
+	font-size: 10px; 
+	font-style: normal; 
+	font-family: "Helvetica"; 
+	color: black; 
+	font-weight: lighter; 
+}
+.FieldTitle {
+	font-style: normal; 
+	font-family: "Helvetica"; 
+	color: black;  
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.FieldContent 
+{
+	font-size: 11px;						/* font-variant:small-caps;   */
+}
+.ContentStatus { 
+	font-style: normal; 
+	font-family: "Helvetica"; 
+	color: black;  
+	font-weight: bold;
+	text-transform: uppercase;	
+}
+.UnexpectedContent {
+	font-style: normal; 
+	font-family: "Helvetica"; 
+	color: red;  
+	font-weight: bold;
+	text-decoration: underline;
+}
+.MissingContent { 
+	font-style: normal; 
+	font-family: "Helvetica"; 
+	color: red;  
+	font-weight: bold;
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+
+.TabularTitle       { padding-top: 2px; padding-bottom:1px; }
+.TabularDataContent { padding-left: 6px; padding-bottom:1pt; }
+.RightSpacerPad { padding-right: 6px; }
+.DataContentNoLeftPadding
+{ 
+	padding: 1px 6px 1px 0; 
+	margin-left: 1em; 
+	text-indent: -1em; 
+}
+.DataContent 
+{ 
+	padding: 1px 6px 1px 6px; 
+	margin-left: 1em; 
+	text-indent: -1em; 
+}
+.TabularSectionTitle
+{
+	padding-top: 1px;
+	padding-left: 6px;
+}
+.SectionTitle 
+{ 
+	text-transform: uppercase; 
+	font-weight: bolder; 
+	font-size:110%; 
+}
+.SectionInfo { font-weight: bolder; font-size:110%; }
+.TabularSubsectionTitle
+{
+	padding-top: 1px;
+}
+.SubsectionTitle 
+{ 
+	text-transform: uppercase; 
+	font-weight: normal; 
+}
+.SectionId 
+{ 
+	padding-right: 6px;
+	vertical-align: top;
+	font-size: 16px; 
+	font-style: normal; 
+	font-family: "Helvetica"; 
+	color: black; 
+	font-weight: bolder; 
+}
+.SubSectionId 
+{ 
+	vertical-align: top;
+	font-size: 14px; 
+	font-style: normal; 
+	font-family: "Helvetica"; 
+	color: black; 
+	font-weight: bolder; 
+}
+.SeparatorText
+{ 
+	vertical-align: top;
+	font-size: 14px; 
+	font-style: normal; 
+	font-family: "Helvetica"; 
+	color: black; 
+	font-weight: bold; 
+}
+.RptBold { font-weight: bold; }
+.RptNormal { font-weight: normal; }
+
+.Part			{ background-color: #000000; color: #FFFFFF; }	/* white on black */
+.PartId 
+{ 
+	vertical-align: middle;
+	font-size: 18px; 
+	font-style: normal; 
+	font-family: "Helvetica"; 
+}
+.Agency		{ background-color: #FFFACD; color: #000000; }	/* black on yellow */
+
+/*************************/
+/*  Release Form Styles  */
+/*************************/
+.ReleaseFormText
+{
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	/* font-size:8.0pt; */
+	font-weight:normal;
+	font-family:"Times New Roman";
+}
+@page ReleaseFormPage
+{
+	size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;
+}
+h1.ReleaseFormPage
+{
+	margin:0in;
+	margin-bottom:.0001pt;
+	page-break-after:avoid;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	color:black;
+}
+div.ReleaseFormPage
+	{page:ReleaseFormPage;}

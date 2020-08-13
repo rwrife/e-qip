@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<IllegalDrugUseQuestions><Question Code="IllegalUse">Since the age of 16 or in the last 7 years, whichever is shorter, 
+		have you <span style="text-decoration: underline;">illegally</span> used any controlled substance, 
+		for example, marijuana, cocaine, crack cocaine, hashish, 
+		narcotics (opium, morphine, codeine, heroin, etc.), amphetamines, 
+		depressants (barbiturates, methaqualone, tranquilizers, etc.), hallucinogenics (LSD, PCP, etc.), 
+		or prescription drugs?</Question><Question Code="SensitivePositionUse">Have you <span style="text-decoration: underline;">ever</span> illegally used 
+		a controlled substance while employed as a law enforcement officer, prosecutor, or courtroom official, 
+		while possessing a security clearance; or while in a position directly and immediately affecting the public 
+		safety?</Question><Question Code="IllegalActivity">In the last 7 years, have you been involved in the illegal purchase, 
+		manufacture, trafficking, production, transfer, shipping, receiving, or sale of any narcotic, depressant, 
+		stimulant, hallucinogen, or cannabis for your own intended profit or that of another?</Question></IllegalDrugUseQuestions>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<AccessCodes><AccessCode KeyCode="0" Code="0">Not Required</AccessCode><AccessCode KeyCode="1" Code="1">Confidential</AccessCode><AccessCode KeyCode="2" Code="2">Secret</AccessCode><AccessCode KeyCode="3" Code="3">Top Secret</AccessCode><AccessCode KeyCode="4" Code="4">Sensitive Compartmented Information</AccessCode><AccessCode KeyCode="5" Code="5">Q</AccessCode><AccessCode KeyCode="7" Code="7">L</AccessCode><AccessCode KeyCode="8" Code="8">Other</AccessCode></AccessCodes>

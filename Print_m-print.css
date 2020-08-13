@@ -1,0 +1,449 @@
+/***************************/
+/*                         */
+/* Sf86_Print_m-print.css  */
+/*                         */
+/*         Print           */
+/*                         */
+/*        Cascading        */
+/*       Style Sheet       */
+/*                         */
+/***************************/
+
+/********************/
+/*  Default Styles  */
+/********************/
+
+BODY { margin: 1px; }
+
+BODY, TABLE, INPUT, SELECT, OPTION, TEXTAREA, BUTTON
+{
+	font-family: "Verdana", "Helevetica", sans-serif;
+	font-weight: 700;
+	font-size: 9pt;
+}
+
+TH, TD
+{
+	text-align: left;
+	vertical-align: middle;
+}
+
+INPUT, SELECT, OPTION, TEXTAREA { color: #000000; }
+
+BUTTON, A
+{
+	font-size: 8pt;
+	background-color: #000000;
+	color: #FFFF00;
+	cursor: hand;
+	text-decoration: none;
+}		/* black, yellow */
+
+HR
+{
+	border: solid;
+	background-color: green;
+	color: green;
+}
+
+
+/********************/
+/*  Section Styles  */
+/********************/
+
+.Section
+{
+	border-width: 1pt, 2pt;
+	border-style: solid;
+	border-color: #000000;
+}
+
+.TopSection		{ border-top-width:    2pt; }
+.BottomSection	{ border-bottom-width: 2pt; }
+
+/* unused */
+.HelpSection		{ border-bottom: 0 none; }
+.PostHelpSection	{ border-top:    0 none; }
+
+
+/****************/
+/*  Bot Styles  */
+/****************/
+
+.HeaderContainer { padding: 3pt; }
+.Container { padding: 2pt 0; }
+
+.NonFloatBot { float: none; }
+.FloatLeftBot { float: left; }
+.FloatRightBot { float: right; }
+
+/* unused */
+.Bot { margin: 2pt 0 2pt 4pt; }
+
+.MaxWidthBot { margin: 2pt 0; }
+
+.MaxWidthBotPadding { padding: 2pt 4pt; }
+
+.TitleBot	 { padding-right: 2pt; }
+.CheckboxBot { margin-left: 4pt; }
+/* .CheckboxBot { float: right; margin-left: 4pt or 6px; } */
+
+/* Table Option Bots */
+
+.MaxTableOptionSize { width: 144pt }
+
+/* Messages Bots */
+
+.MessagesContainer { padding: 0 4pt 4pt 4pt; }
+
+.MessagesBot
+{
+	display: block;
+	margin: 0;
+	padding: 0;
+	width: auto;
+	list-style: none outside none;
+}
+
+.MessageBot
+{
+	display: block;
+	margin-top: 4pt;
+	padding-top: 0.15ex;
+	width: auto;
+	list-style: none outside none;
+}
+
+.MessageItemsBot
+{
+	display: block;
+	margin: 0 4pt 4pt 4pt;
+	padding: 0;
+	width: auto;
+	list-style: none outside none;
+	text-align:left;
+}
+
+.MessageItemBot
+{
+	display: block;
+	margin-top: 3pt;
+	padding: 0 0.75ex 0.2ex 0.75ex;
+	width: auto;
+	list-style: none outside none;
+}
+
+
+/* Review Bots */
+
+.ReviewsBot
+{
+	display: block;
+	margin: 0;
+	padding: 0;
+	width: auto;
+	list-style: none outside none;
+}
+
+.ReviewBot
+{
+	display: block;
+	margin: 0;
+	padding: 4pt;
+	width: auto;
+	list-style: none outside none;
+}
+
+
+/* NavBar Bots */
+
+.NavBarContainer { padding: 4pt; }
+
+.NavBarBot
+{
+	display: inline;
+	margin: 0;
+	padding: 0;
+	list-style: none outside none;
+}
+
+.NavBarLinkBot
+{
+	display: inline;
+	list-style: none outside none;
+	white-space: nowrap;
+}
+
+.NavBarPadding { padding: 0 1ex 0 1ex; }
+
+
+/* Menu Bots */
+
+.MenusBot
+{
+	margin: 0;
+	padding: 0;
+	width: auto;
+	list-style: none inside none;
+}
+
+.MenuBot
+{
+	margin: 0;
+	padding: 0 0 0 1.5ex;
+	width: auto;
+	list-style: none inside none;
+}
+
+.MenuItemsBot
+{
+	margin: 0;
+	padding: 0;
+	width: auto;
+	list-style: none inside none;
+	text-align:left;
+}
+
+.MenuItemBot
+{
+	margin: 0;
+	padding: 0 0 0 3.0ex;
+	width: auto;
+	list-style: disc inside none;
+}
+
+
+/**********************/
+/*  Alignment Styles  */
+/**********************/
+
+.MaxWidth	 { width: 100%; }
+div.MaxWidth { width: auto; }
+
+.BlockCenter { margin-right: auto; margin-left: auto; }
+
+.TextLeft	{ text-align: left; }
+.TextCenter { text-align: center; }
+.TextRight	{ text-align: right; }
+
+.VertTop		{ vertical-align: top; }
+.VertMiddle	{ vertical-align: middle; }
+.VertBottom	{ vertical-align: bottom; }
+
+.NoWrap { white-space: nowrap; }
+.TextWrap   { white-space: normal; }
+
+.NoPadding { padding: 0; }
+
+.Hidden { visibility: hidden; display: none; }
+
+
+/*******************/
+/*  Border Styles  */
+/*******************/
+
+.SeparatorBorder 	{ border-top: 1pt solid #000000; }
+/* unused */
+.NoBorders				{ border: 0   none  #000000; }
+.VeryThinBorders	{ border: 1px solid #000000; }
+.ThinBorders			{ border: 1pt solid #000000; }
+.MediumBorders		{ border: 2pt solid #000000; }
+.ThickBorders			{ border: 3pt solid #000000; }
+
+
+/********************************/
+/*  Special Paged Media Styles  */
+/********************************/
+
+/* @page rotated { size: landscape; margin: 2cm } mjb - not supported by MSIE 5.01 or lower */
+DIV.OnPrintHide {display: none}
+.NoPageBrk {page-break-inside: avoid;}
+.PageBrk {page-break-after: always;}
+
+
+/*************************/
+/*  Color & Font Styles  */
+/*************************/
+
+.Group			{ background-color: #FFFFFF; color: #000000; }	/* dark blue,  white */
+.Background		{ background-color: white; color: #000000; }	/* antique white, black */
+.Report		{ background-color: white; color: #000000; }	/* white, black */
+.TitleBackground	{ background-color: antiquewhite; color: #000000; }	/* antique white, black */
+.UpperCase { text-transform: uppercase; }
+.RptHeader { 
+font-size: 10pt; 
+font-style: normal; 
+font-family: "Helvetica"; 
+color: black;  
+font-weight: normal; 
+}
+.RptDetail { 
+	font-size: 9pt; 
+	font-style: normal; 
+	font-family: "Helvetica"; 
+	color: black; 
+	font-weight: normal; 
+}
+.RptSmall { 
+	font-size: 7pt; 
+	font-style: normal; 
+	font-family: "Helvetica"; 
+	color: black; 
+	font-weight: lighter; 
+}
+.FieldTitle {
+	font-style: normal; 
+	font-family: "Helvetica"; 
+	color: black;  
+	font-weight: bold;
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+.FieldContent 
+{
+	font-size: 7pt;
+}
+.ContentStatus { 
+	font-style: normal; 
+	font-family: "Helvetica"; 
+	color: black;  
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.UnexpectedContent {
+	font-style: normal; 
+	font-family: "Helvetica"; 
+	color: red;  
+	font-weight: bold;
+	text-decoration: underline;
+}
+.MissingContent { 
+	font-style: normal; 
+	font-family: "Helvetica"; 
+	color: red;  
+	font-weight: bold;
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+
+.TabularTitle       { padding-top: 4pt; padding-bottom:1pt; }
+.TabularDataContent { padding-left: 3pt; padding-bottom:1pt; }
+.RightSpacerPad { padding-right: 6px; }
+.DataContentNoLeftPadding
+{ 
+	padding: 1px 6px 1px 0; 
+	margin-left: 1em; 
+	text-indent: -1em; 
+}
+.DataContent 
+{ 
+	padding: 4pt 3pt 1pt 3pt; 
+	margin-left: 1em; 
+	text-indent: -1em; 
+}
+.TabularSectionTitle
+{
+	padding-top: 2pt;
+	padding-left: 3pt;
+}
+.SectionTitle 
+{ 
+	text-transform: uppercase; 
+	font-weight: bolder; 
+	font-size:110%; 
+}
+.SectionInfo { font-weight: bolder; font-size:110%; }
+.TabularSubsectionTitle
+{
+	padding-top: 2pt;
+}
+.SubsectionTitle 
+{ 
+	text-transform: uppercase; 
+	font-weight: normal; 
+}
+.SectionId 
+{ 
+	padding-right: 3pt;
+	padding-top: 2pt;
+	vertical-align: top;
+	font-size: 10pt; 
+	font-style: normal; 
+	font-family: "Helvetica"; 
+	color: black; 
+	font-weight: bolder; 
+}
+.SubSectionId 
+{ 
+	padding-top: 2pt;
+	vertical-align: top;
+	font-size: 9pt; 
+	font-style: normal; 
+	font-family: "Helvetica"; 
+	color: black; 
+	font-weight: bolder; 
+}
+.SeparatorText
+{ 
+	vertical-align: top;
+	font-size: 9pt; 
+	font-style: normal; 
+	font-family: "Helvetica"; 
+	color: black; 
+	font-weight: bold; 
+}
+.RptBold { font-weight: bold; }
+.RptNormal { font-weight: normal; }
+
+.Part			{ background-color: #000000; color: #FFFFFF; }	/* white on black */
+.PartId 
+{ 
+	vertical-align: middle;
+	font-size: 14pt; 
+	font-style: normal; 
+	font-family: "Helvetica"; 
+}
+.Agency		{ background-color: #FFFACD; color: #000000; }	/* black on white */
+
+/*************************/
+/*  Paged Media Styles   */
+/*************************/
+
+.NoPageBreak {page-break-inside: avoid;}
+.PageBreakAfter {page-break-after: always;}
+.PageBreakBefore {page-break-before: always;}
+
+/*************************/
+/*  Release Form Styles  */
+/*************************/
+.ShowMinusFont 
+{
+	font-family: "Verdana"; /* Will Show &#8722 as a minus character */
+	/* Did Not Use As I passed SSNFormat a normal, more printable "dash" character */
+	/* Left This Class To Document That Times Roman does not print the minus character - b4z 9/10/01 */
+} 
+.ReleaseFormText
+{
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	/* font-size:8.0pt; */
+	font-weight:normal;
+	font-family:"Times New Roman";
+}
+@page ReleaseFormPage
+{
+	size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;
+}
+h1.ReleaseFormPage
+{
+	margin:0in;
+	margin-bottom:.0001pt;
+	page-break-after:avoid;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	color:black;
+}
+div.ReleaseFormPage
+	{page:ReleaseFormPage;}
